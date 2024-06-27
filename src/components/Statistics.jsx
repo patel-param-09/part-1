@@ -3,10 +3,18 @@ import React from "react";
 function Statistics() {
   return (
     <div>
-      <p>Good = {props.good}</p>
-      <p>Nutral = {props.neutral}</p>
-      <p>Bad = {props.bad}</p>
-      <p>Total = {props.total}</p>
+      <tr>
+        <td>Good</td> <td>{props.good}</td>
+      </tr>
+      <tr>
+        <td>Nutral</td> <td>{props.neutral}</td>
+      </tr>
+      <tr>
+        <td>Bad</td> <td>{props.bad}</td>
+      </tr>
+      <tr>
+        <td>Total</td> <td>{props.total}</td>
+      </tr>
     </div>
   );
 }
